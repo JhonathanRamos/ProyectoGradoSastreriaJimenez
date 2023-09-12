@@ -1,0 +1,987 @@
+ERROR - 2023-08-31 00:22:29 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:22:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:23:35 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:23:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:23:39 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:23:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:24:33 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:24:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:24:34 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:24:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:24:36 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:24:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:24:37 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:24:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:24:55 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'::1' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'::1' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:24:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'::1' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:24:58 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'::1' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'::1' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:24:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'::1' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:25:02 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'::1' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'::1' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:25:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'::1' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:25:04 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'::1' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'::1' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:25:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'::1' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:25:17 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:25:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:25:22 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:25:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:25:23 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:25:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:25:28 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:25:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:45:27 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:45:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:45:40 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:45:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:45:42 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:45:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:47:15 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:47:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:47:15 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:47:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:49:21 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for https failed: Name or service not known in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for https failed: Name or service not known in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for https failed: Name or service not known in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:49:21 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for https failed: Name or service not known
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:49:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'::1' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'::1' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:49:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'::1' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:49:39 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u214432491_biblioteca'@'::1' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'::1' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:49:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'::1' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 00:52:04 --> Undefined array key "apellido"
+in APPPATH/Views/libros/listar.php on line 34.
+ 1 APPPATH/Views/libros/listar.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/home/u214432491/domains/jhonathan.online/public_html/app/Views/libros/listar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Libros.php(16): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 00:55:18 --> Error connecting to the database: mysqli_sql_exception: Access denied for user '	u214432491_proyecto'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u214432491/domains/jhonathan.online/public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u214432491/domains/jhonathan.online/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u214432491/domains/jhonathan.online/public_html/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u214432491/domains/jhonathan.online/public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/u214432491/domains/jhonathan.online/public_html/app/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+#6 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /home/u214432491/domains/jhonathan.online/public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u214432491/domains/jhonathan.online/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:55:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Libros.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
