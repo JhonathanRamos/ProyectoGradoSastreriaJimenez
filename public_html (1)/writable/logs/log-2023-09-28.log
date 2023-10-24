@@ -1,0 +1,256 @@
+CRITICAL - 2023-09-28 14:29:20 --> Invalid file: "cliente.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('cliente')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 14:38:09 --> Invalid file: "bddclientes/clientes.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bddclientes/clientes.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bddclientes/clientes', [], true)
+ 3 APPPATH\Controllers\Clientes.php(12): view('bddclientes/clientes')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 14:52:44 --> Undefined variable $Libro
+in APPPATH\Controllers\Clientes.php on line 13.
+ 1 APPPATH\Controllers\Clientes.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Libro', 'C:\\xampp\\htdocs\\code4\\app\\Controllers\\Clientes.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 14:53:38 --> Undefined variable $bbdclientes
+in APPPATH\Views\bddclientes\cliente.php on line 14.
+ 1 APPPATH\Views\bddclientes\cliente.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bbdclientes', 'C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\cliente.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\cliente.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bddclientes/cliente', [], true)
+ 5 APPPATH\Controllers\Clientes.php(15): view('bddclientes/cliente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 14:54:28 --> Undefined variable $bbdclientes
+in APPPATH\Views\bddclientes\cliente.php on line 14.
+ 1 APPPATH\Views\bddclientes\cliente.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bbdclientes', 'C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\cliente.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\cliente.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bddclientes/cliente', [], true)
+ 5 APPPATH\Controllers\Clientes.php(15): view('bddclientes/cliente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 15:00:35 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\bddclientes\cliente.php on line 41.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bddclientes/cliente', [], true)
+ 3 APPPATH\Controllers\Clientes.php(15): view('bddclientes/cliente', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-28 20:18:44 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'bbdsastreria' in C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '77448360', 'bbdsastreria', 3306, '', 0)
+#1 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\code4\app\Controllers\Clientes.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\code4\system\CodeIgniter.php(919): App\Controllers\Clientes->index()
+#8 C:\xampp\htdocs\code4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#9 C:\xampp\htdocs\code4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'bbdsastreria' in C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\code4\app\Controllers\Clientes.php(13): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\code4\system\CodeIgniter.php(919): App\Controllers\Clientes->index()
+#7 C:\xampp\htdocs\code4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#8 C:\xampp\htdocs\code4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-28 20:18:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'bbdsastreria'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cliente`
+ORDER BY `id` ASC', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Clientes.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 20:25:12 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\Clientes.php(63): CodeIgniter\Model->update()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->borrar('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 20:26:44 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\Clientes.php(65): CodeIgniter\Model->update()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->borrar('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 20:32:22 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\Clientes.php(66): CodeIgniter\Model->update()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->borrar('5')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 20:34:08 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\Clientes.php(66): CodeIgniter\Model->update()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->borrar('5')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 20:34:09 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\Clientes.php(66): CodeIgniter\Model->update()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->borrar('5')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 20:34:12 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\Clientes.php(66): CodeIgniter\Model->update()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->borrar('5')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 20:34:22 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\Clientes.php(66): CodeIgniter\Model->update()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->borrar('6')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 20:39:41 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Clientes.php(66): CodeIgniter\Model->update('6', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->borrar('6')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 20:39:42 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Clientes.php(66): CodeIgniter\Model->update('6', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->borrar('6')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 20:39:44 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Clientes.php(66): CodeIgniter\Model->update('5', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->borrar('5')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 20:39:56 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Clientes.php(66): CodeIgniter\Model->update('5', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->borrar('5')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 20:48:38 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Clientes.php on line 75.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\code4\\app\\Controllers\\Clientes.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Clientes')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Clientes')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Clientes', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 20:48:48 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Clientes.php on line 75.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\code4\\app\\Controllers\\Clientes.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Clientes')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Clientes')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Clientes', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 20:49:02 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Clientes.php on line 75.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\code4\\app\\Controllers\\Clientes.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Clientes')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Clientes')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Clientes', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 21:34:37 --> Invalid file: "cliente.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('cliente')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 22:22:02 --> Unclosed '{' on line 3
+in APPPATH\Views\bddclientes\crear.php on line 46.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bddclientes/crear', [], true)
+ 3 APPPATH\Controllers\Clientes.php(32): view('bddclientes/crear', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 22:38:15 --> Undefined property: App\Controllers\Clientes::$validation
+in APPPATH\Controllers\Clientes.php on line 69.
+ 1 APPPATH\Controllers\Clientes.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Clientes::$validation', 'C:\\xampp\\htdocs\\code4\\app\\Controllers\\Clientes.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 22:42:25 --> Undefined property: App\Controllers\Clientes::$validation
+in APPPATH\Controllers\Clientes.php on line 70.
+ 1 APPPATH\Controllers\Clientes.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Clientes::$validation', 'C:\\xampp\\htdocs\\code4\\app\\Controllers\\Clientes.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,323 @@
+body {
+    background-color: rgb(255, 255, 255);
+  }
+
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* burbujas */
+
+.burbuja{
+    border-radius: 50%;
+    background: rgb(124, 175, 184);
+    opacity: .3;
+
+    position: absolute;
+    bottom: -150;
+    
+    animation: burbujas 3s linear infinite ;
+}
+
+.burbuja:nth-child(1){
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(2){
+    width: 100px;
+    height: 100px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(3){
+    width: 20px;
+    height: 20px;
+    left: 15%;
+    animation-duration: 1.5s;
+    animation-delay: 7s;
+}
+
+.burbuja:nth-child(4){
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    animation-duration: 6s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(5){
+    width: 70px;
+    height: 70px;
+    left: 65%;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+.burbuja:nth-child(6){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 4s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(7){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 4s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(8){
+    width: 100;
+    height: 100px;
+    left: 52%;
+    animation-duration: 5s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(9){
+    width: 65px;
+    height: 65px;
+    left: 51%;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+.burbuja:nth-child(10){
+    width: 40px;
+    height: 40px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 4s;
+}
+
+
+@keyframes burbujas{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    30%{
+        transform: translateX(30px);
+    }
+    50%{
+        opacity: .4;
+    }
+    100%{
+        bottom: 100vh;
+        opacity: 0;
+    }
+}
+
+@keyframes movimiento{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+
+.btn-neon{
+    position: relative;
+    display:inline-block;
+    padding:15px 30px;
+    color:#000000;
+    letter-spacing: 4px;
+    font-size: 24px ;
+    text-decoration: none;
+    overflow: hidden;
+    transition:0.2s;
+}
+.btn-neon:hover{
+    background: #d7e60c;
+    box-shadow: 0 0 10px #d7e60c, 0 0 40px #d7e60c, 0 0 80px #d7e60c;
+    transition-delay: 1s;
+}
+.btn-neon span{
+    position:absolute;
+    display:block
+}
+#span1{
+    top:0;
+    left:-100%;
+    width:100%;
+    height:2px;
+    background:linear-gradient(90deg,transparent,#F5AE0A);
+}
+
+.btn-neon:hover #span1{
+    left:100%;
+    transition:1s;
+}
+
+#span3{
+    bottom:0;
+    right:-100%;
+    width:100%;
+    height:2px;
+    background:linear-gradient(270deg,transparent,#F5AE0A);
+}
+
+.btn-neon:hover #span3{
+    right:100%;
+    transition:1s;
+    transition-delay: 0.5s;
+}
+
+#span2{
+    top:100%;
+    right:0%;
+    width:2px;
+    height:100%;
+    background:linear-gradient(180deg,transparent,#F5AE0A);
+}
+
+.btn-neon:hover #span2{
+    top:100%;
+    transition:1s;
+    transition-delay: 0.25s;
+}
+
+#span4{
+    bottom:-100%;
+    left:0;
+    width:2px;
+    height:100%;
+    background:linear-gradient(3600deg,transparent,#F5AE0A);
+}
+
+.btn-neon:hover #span4{
+    bottom:100%;
+    transition:1s;
+    transition-delay: 0.25s;
+}
+
+
+/*imagen*/
+#logo {
+    width: 100px; /* Cambia el tamaño a 100 píxeles de ancho */
+    height: auto; /* Mantén la proporción original de la imagen */
+  }
+  
+  /* Agrega estilos personalizados aquí */
+  #map-container {
+      height: 450px; /* Altura personalizada del mapa */
+      border: 1px solid #ccc; /* Borde para el contenedor del mapa */
+  }
+
+  
+  /* Agrega estilo al footer en los iconos de facebook y whasap */
+ /* Aplicar estilo específico a los enlaces y las imágenes de Facebook y WhatsApp */
+#facebook-link, #whatsapp-link {
+  text-decoration: none; /* Eliminar el subrayado de los enlaces */
+
+}
+
+/*Agregar estilo a las telas */
+
+/* Estilos para los botones de tela */
+.fabric-button {
+    width: 70px;
+    height: 40px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin: 10px; /* Agrega un margen de 10px alrededor de los botones */
+  }
+  
+  .fabric-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .fabric-button:hover {
+    transform: scale(1.1);
+}
+
+/*CARUSEL INICIO*/
+/* Estilo para el carrusel */
+.carousel-inner {
+    max-width: 1222.5px; /* Establece el ancho máximo para el carrusel */
+    margin: 0 auto; /* Centra el carrusel horizontalmente */
+    position: relative; /* Añade posición relativa para posicionar los botones */
+  }
+  
+  .carousel-item {
+    text-align: center; /* Centra verticalmente el contenido del carrusel */
+    position: relative; /* Añade posición relativa para alinear los controles */
+  }
+  
+  .carousel-item img {
+    max-width: 100%;
+    height: auto; /* Permite que las imágenes se ajusten al ancho del carrusel */
+    border: 4px solid #000;
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer; /* Cambia el cursor al hacer clic en la imagen */
+  }
+  
+  .carousel-item img:hover {
+    transform: scale(1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Estilo para los controles del carrusel en escritorio */
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  /* Alinea las flechas horizontalmente y las ubica completamente dentro del cuadro en escritorio */
+  .carousel-control-prev {
+    left: 98px;
+  }
+  
+  .carousel-control-next {
+    right: 98px;
+  }
+  
+  /* Oculta las flechas en dispositivos móviles */
+  @media (max-width: 767px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+      display: none;
+    }
+  }
+
+  /*Imagen*/
+
+.custom-image {
+    width: 100px;
+    height: 100px;
+}
+
+  
+  
+  
+  
+  

@@ -1,0 +1,58 @@
+CRITICAL - 2023-10-10 20:22:39 --> Invalid file: "cliente.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('cliente')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 20:25:16 --> Undefined variable $cabecera
+in APPPATH\Views\bddclientes\cliente.php on line 3.
+ 1 APPPATH\Views\bddclientes\cliente.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\cliente.php', 3)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\cliente.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bddclientes/cliente', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('bddclientes/cliente')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 20:25:17 --> Undefined variable $cabecera
+in APPPATH\Views\bddclientes\cliente.php on line 3.
+ 1 APPPATH\Views\bddclientes\cliente.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\cliente.php', 3)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\cliente.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bddclientes/cliente', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('bddclientes/cliente')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 20:25:41 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 20:25:42 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 20:29:15 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

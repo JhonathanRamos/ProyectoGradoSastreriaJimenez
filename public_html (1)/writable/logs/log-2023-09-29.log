@@ -1,0 +1,419 @@
+CRITICAL - 2023-09-29 00:49:43 --> Undefined variable $Cliente
+in APPPATH\Views\bddclientes\cliente.php on line 9.
+ 1 APPPATH\Views\bddclientes\cliente.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Cliente', 'C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\cliente.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\cliente.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bddclientes/cliente', [], true)
+ 5 APPPATH\Controllers\Clientes.php(23): view('bddclientes/cliente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 00:50:43 --> Undefined variable $Cliente
+in APPPATH\Views\bddclientes\cliente.php on line 9.
+ 1 APPPATH\Views\bddclientes\cliente.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Cliente', 'C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\cliente.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\cliente.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bddclientes/cliente', [], true)
+ 5 APPPATH\Controllers\Clientes.php(23): view('bddclientes/cliente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 02:39:15 --> Undefined array key "primerApellido"
+in APPPATH\Views\bddclientes\cliente.php on line 33.
+ 1 APPPATH\Views\bddclientes\cliente.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "primerApellido"', 'C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\cliente.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\cliente.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bddclientes/cliente', [], true)
+ 5 APPPATH\Controllers\Clientes.php(23): view('bddclientes/cliente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 02:39:33 --> Undefined array key "primerApellido"
+in APPPATH\Views\bddclientes\cliente.php on line 33.
+ 1 APPPATH\Views\bddclientes\cliente.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "primerApellido"', 'C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\cliente.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\cliente.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bddclientes/cliente', [], true)
+ 5 APPPATH\Controllers\Clientes.php(23): view('bddclientes/cliente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 02:51:07 --> Undefined array key "primerApellido"
+in APPPATH\Views\bddclientes\editar.php on line 30.
+ 1 APPPATH\Views\bddclientes\editar.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "primerApellido"', 'C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\editar.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bddclientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(100): view('bddclientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->editar('46')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 02:53:24 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Clientes.php(129): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 02:54:39 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Clientes.php(129): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 02:54:49 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Clientes.php(129): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 02:55:40 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 02:55:49 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 02:58:32 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 02:59:03 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 03:29:59 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 03:31:34 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 03:31:44 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 03:32:19 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 03:32:27 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 03:33:51 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 03:34:02 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 03:34:50 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 05:00:08 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 05:01:50 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 05:02:02 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 05:02:28 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 05:02:30 --> Undefined array key "primerApellido"
+in APPPATH\Views\bddclientes\editar.php on line 30.
+ 1 APPPATH\Views\bddclientes\editar.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "primerApellido"', 'C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\editar.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bddclientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(100): view('bddclientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->editar('52')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 05:02:34 --> Undefined array key "primerApellido"
+in APPPATH\Views\bddclientes\editar.php on line 30.
+ 1 APPPATH\Views\bddclientes\editar.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "primerApellido"', 'C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\editar.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bddclientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(100): view('bddclientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->editar('46')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 05:02:51 --> Undefined array key "primerApellido"
+in APPPATH\Views\bddclientes\editar.php on line 30.
+ 1 APPPATH\Views\bddclientes\editar.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "primerApellido"', 'C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\editar.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\bddclientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bddclientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(100): view('bddclientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->editar('52')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 05:51:36 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 05:52:14 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 05:52:25 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 05:52:34 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 05:52:55 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 05:53:00 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 05:53:05 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 05:53:51 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 05:54:31 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 05:55:05 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 05:56:56 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 05:57:01 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Clientes.php(130): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->actualizar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 13:31:38 --> Invalid file: "cliente.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('cliente')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 13:31:52 --> Invalid file: "cliente.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('cliente')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 13:31:53 --> Invalid file: "cliente.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('cliente')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

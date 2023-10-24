@@ -1,0 +1,778 @@
+CRITICAL - 2023-10-23 05:30:20 --> Undefined variable $faldas
+in APPPATH\Views\datos\datosPantalon.php on line 27.
+ 1 APPPATH\Views\datos\datosPantalon.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $faldas', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\datosPantalon.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\datosPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/datosPantalon', [], true)
+ 5 APPPATH\Controllers\Pantalons.php(16): view('datos/datosPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pantalons->pantalon()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 05:31:19 --> syntax error, unexpected single-quoted string "rodilla", expecting "]"
+in APPPATH\Controllers\Pantalons.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\code4\\app\\Controllers\\Pantalons.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pantalons')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pantalons')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Pantalons', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 05:46:27 --> Undefined variable $pantalones
+in APPPATH\Views\datos\datosPantalon.php on line 27.
+ 1 APPPATH\Views\datos\datosPantalon.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalones', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\datosPantalon.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\datosPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/datosPantalon', [], true)
+ 5 APPPATH\Controllers\TrajeMasculinos.php(32): view('datos/datosPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TrajeMasculinos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeMasculinos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 05:47:06 --> Undefined variable $pantalones
+in APPPATH\Views\datos\datosPantalon.php on line 27.
+ 1 APPPATH\Views\datos\datosPantalon.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalones', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\datosPantalon.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\datosPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/datosPantalon', [], true)
+ 5 APPPATH\Controllers\TrajeMasculinos.php(32): view('datos/datosPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TrajeMasculinos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeMasculinos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 05:47:08 --> Undefined variable $pantalones
+in APPPATH\Views\datos\datosPantalon.php on line 27.
+ 1 APPPATH\Views\datos\datosPantalon.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalones', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\datosPantalon.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\datosPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/datosPantalon', [], true)
+ 5 APPPATH\Controllers\TrajeMasculinos.php(32): view('datos/datosPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TrajeMasculinos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeMasculinos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 05:47:09 --> Undefined variable $pantalones
+in APPPATH\Views\datos\datosPantalon.php on line 27.
+ 1 APPPATH\Views\datos\datosPantalon.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalones', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\datosPantalon.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\datosPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/datosPantalon', [], true)
+ 5 APPPATH\Controllers\TrajeMasculinos.php(32): view('datos/datosPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TrajeMasculinos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeMasculinos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 05:53:27 --> mysqli_sql_exception: Unknown column 'traje_femenino.cliente_id' in 'field list' in C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `traje_f...', 0)
+#1 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `traje_f...')
+#2 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `traje_f...')
+#3 C:\xampp\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `traje_f...', Array, false)
+#4 C:\xampp\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\code4\app\Controllers\TrajeFemeninos.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\code4\system\CodeIgniter.php(919): App\Controllers\TrajeFemeninos->index()
+#8 C:\xampp\htdocs\code4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeFemeninos))
+#9 C:\xampp\htdocs\code4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-23 05:53:27 --> Unknown column 'traje_femenino.cliente_id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `traje_femenino`.`cliente_id`, CONCAT( cliente.nombre, " ", cliente.apellido ) AS nombre_completo, `traje_femenino`.`talle`, `traje_femenino`.`largo`, `traje_femenino`.`hombro`, `traje_femenino`.`ancho`, `traje_femenino`.`pecho`, `traje_femenino`.`cintura`, `traje_femenino`.`cadera`, `traje_femenino`.`largoManga`
+FROM `traje_masculino`
+JOIN `cliente` ON `cliente`.`id` = `traje_masculino`.`cliente_id`
+ORDER BY `cliente_id` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\TrajeFemeninos.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TrajeFemeninos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeFemeninos))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 05:54:45 --> mysqli_sql_exception: Unknown column 'traje_femenino.cliente_id' in 'field list' in C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `traje_f...', 0)
+#1 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `traje_f...')
+#2 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `traje_f...')
+#3 C:\xampp\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `traje_f...', Array, false)
+#4 C:\xampp\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\code4\app\Controllers\TrajeFemeninos.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\code4\system\CodeIgniter.php(919): App\Controllers\TrajeFemeninos->index()
+#8 C:\xampp\htdocs\code4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeFemeninos))
+#9 C:\xampp\htdocs\code4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-23 05:54:45 --> Unknown column 'traje_femenino.cliente_id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `traje_femenino`.`cliente_id`, CONCAT( cliente.nombre, " ", cliente.apellido ) AS nombre_completo, `traje_femenino`.`talle`, `traje_femenino`.`largo`, `traje_femenino`.`hombro`, `traje_femenino`.`ancho`, `traje_femenino`.`pecho`, `traje_femenino`.`cintura`, `traje_femenino`.`cadera`, `traje_femenino`.`largoManga`
+FROM `traje_masculino`
+JOIN `cliente` ON `cliente`.`id` = `traje_masculino`.`cliente_id`
+ORDER BY `cliente_id` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\TrajeFemeninos.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TrajeFemeninos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeFemeninos))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 05:54:46 --> mysqli_sql_exception: Unknown column 'traje_femenino.cliente_id' in 'field list' in C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `traje_f...', 0)
+#1 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `traje_f...')
+#2 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `traje_f...')
+#3 C:\xampp\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `traje_f...', Array, false)
+#4 C:\xampp\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\code4\app\Controllers\TrajeFemeninos.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\code4\system\CodeIgniter.php(919): App\Controllers\TrajeFemeninos->index()
+#8 C:\xampp\htdocs\code4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeFemeninos))
+#9 C:\xampp\htdocs\code4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-23 05:54:46 --> Unknown column 'traje_femenino.cliente_id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `traje_femenino`.`cliente_id`, CONCAT( cliente.nombre, " ", cliente.apellido ) AS nombre_completo, `traje_femenino`.`talle`, `traje_femenino`.`largo`, `traje_femenino`.`hombro`, `traje_femenino`.`ancho`, `traje_femenino`.`pecho`, `traje_femenino`.`cintura`, `traje_femenino`.`cadera`, `traje_femenino`.`largoManga`
+FROM `traje_masculino`
+JOIN `cliente` ON `cliente`.`id` = `traje_masculino`.`cliente_id`
+ORDER BY `cliente_id` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\TrajeFemeninos.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TrajeFemeninos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeFemeninos))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 05:55:52 --> mysqli_sql_exception: Unknown column 'traje_femenino.cliente_id' in 'field list' in C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `traje_f...', 0)
+#1 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `traje_f...')
+#2 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `traje_f...')
+#3 C:\xampp\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `traje_f...', Array, false)
+#4 C:\xampp\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\code4\app\Controllers\TrajeFemeninos.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\code4\system\CodeIgniter.php(919): App\Controllers\TrajeFemeninos->index()
+#8 C:\xampp\htdocs\code4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeFemeninos))
+#9 C:\xampp\htdocs\code4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-23 05:55:52 --> Unknown column 'traje_femenino.cliente_id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `traje_femenino`.`cliente_id`, CONCAT( cliente.nombre, " ", cliente.apellido ) AS nombre_completo, `traje_femenino`.`talle`, `traje_femenino`.`largo`, `traje_femenino`.`hombro`, `traje_femenino`.`ancho`, `traje_femenino`.`pecho`, `traje_femenino`.`cintura`, `traje_femenino`.`cadera`, `traje_femenino`.`largoManga`
+FROM `traje_masculino`
+JOIN `cliente` ON `cliente`.`id` = `traje_masculino`.`cliente_id`
+ORDER BY `cliente_id` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\TrajeFemeninos.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TrajeFemeninos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeFemeninos))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 05:55:52 --> mysqli_sql_exception: Unknown column 'traje_femenino.cliente_id' in 'field list' in C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `traje_f...', 0)
+#1 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `traje_f...')
+#2 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `traje_f...')
+#3 C:\xampp\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `traje_f...', Array, false)
+#4 C:\xampp\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\code4\app\Controllers\TrajeFemeninos.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\code4\system\CodeIgniter.php(919): App\Controllers\TrajeFemeninos->index()
+#8 C:\xampp\htdocs\code4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeFemeninos))
+#9 C:\xampp\htdocs\code4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-23 05:55:52 --> Unknown column 'traje_femenino.cliente_id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `traje_femenino`.`cliente_id`, CONCAT( cliente.nombre, " ", cliente.apellido ) AS nombre_completo, `traje_femenino`.`talle`, `traje_femenino`.`largo`, `traje_femenino`.`hombro`, `traje_femenino`.`ancho`, `traje_femenino`.`pecho`, `traje_femenino`.`cintura`, `traje_femenino`.`cadera`, `traje_femenino`.`largoManga`
+FROM `traje_masculino`
+JOIN `cliente` ON `cliente`.`id` = `traje_masculino`.`cliente_id`
+ORDER BY `cliente_id` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\TrajeFemeninos.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TrajeFemeninos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeFemeninos))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 05:56:34 --> mysqli_sql_exception: Unknown column 'traje_femenino.cliente_id' in 'field list' in C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `traje_f...', 0)
+#1 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `traje_f...')
+#2 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `traje_f...')
+#3 C:\xampp\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `traje_f...', Array, false)
+#4 C:\xampp\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\code4\app\Controllers\TrajeFemeninos.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\code4\system\CodeIgniter.php(919): App\Controllers\TrajeFemeninos->index()
+#8 C:\xampp\htdocs\code4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeFemeninos))
+#9 C:\xampp\htdocs\code4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-23 05:56:34 --> Unknown column 'traje_femenino.cliente_id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `traje_femenino`.`cliente_id`, CONCAT( cliente.nombre, " ", cliente.apellido ) AS nombre_completo, `traje_femenino`.`talle`, `traje_femenino`.`largo`, `traje_femenino`.`hombro`, `traje_femenino`.`ancho`, `traje_femenino`.`pecho`, `traje_femenino`.`cintura`, `traje_femenino`.`cadera`, `traje_femenino`.`largoManga`
+FROM `traje_masculino`
+JOIN `cliente` ON `cliente`.`id` = `traje_masculino`.`cliente_id`
+ORDER BY `cliente_id` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\TrajeFemeninos.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TrajeFemeninos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeFemeninos))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 05:57:57 --> mysqli_sql_exception: Unknown column 'traje_femenino.cliente_id' in 'field list' in C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `traje_f...', 0)
+#1 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `traje_f...')
+#2 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `traje_f...')
+#3 C:\xampp\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `traje_f...', Array, false)
+#4 C:\xampp\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\code4\app\Controllers\TrajeFemeninos.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\code4\system\CodeIgniter.php(919): App\Controllers\TrajeFemeninos->index()
+#8 C:\xampp\htdocs\code4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeFemeninos))
+#9 C:\xampp\htdocs\code4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-23 05:57:57 --> Unknown column 'traje_femenino.cliente_id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `traje_femenino`.`cliente_id`, CONCAT( cliente.nombre, " ", cliente.apellido ) AS nombre_completo, `traje_femenino`.`talle`, `traje_femenino`.`largo`, `traje_femenino`.`hombro`, `traje_femenino`.`ancho`, `traje_femenino`.`pecho`, `traje_femenino`.`cintura`, `traje_femenino`.`cadera`, `traje_femenino`.`largoManga`
+FROM `traje_masculino`
+JOIN `cliente` ON `cliente`.`id` = `traje_femenino`.`cliente_id`
+ORDER BY `cliente_id` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\TrajeFemeninos.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TrajeFemeninos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeFemeninos))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 05:57:58 --> mysqli_sql_exception: Unknown column 'traje_femenino.cliente_id' in 'field list' in C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `traje_f...', 0)
+#1 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `traje_f...')
+#2 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `traje_f...')
+#3 C:\xampp\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `traje_f...', Array, false)
+#4 C:\xampp\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\code4\app\Controllers\TrajeFemeninos.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\code4\system\CodeIgniter.php(919): App\Controllers\TrajeFemeninos->index()
+#8 C:\xampp\htdocs\code4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeFemeninos))
+#9 C:\xampp\htdocs\code4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-23 05:57:58 --> Unknown column 'traje_femenino.cliente_id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `traje_femenino`.`cliente_id`, CONCAT( cliente.nombre, " ", cliente.apellido ) AS nombre_completo, `traje_femenino`.`talle`, `traje_femenino`.`largo`, `traje_femenino`.`hombro`, `traje_femenino`.`ancho`, `traje_femenino`.`pecho`, `traje_femenino`.`cintura`, `traje_femenino`.`cadera`, `traje_femenino`.`largoManga`
+FROM `traje_masculino`
+JOIN `cliente` ON `cliente`.`id` = `traje_femenino`.`cliente_id`
+ORDER BY `cliente_id` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\TrajeFemeninos.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TrajeFemeninos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeFemeninos))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 05:57:59 --> mysqli_sql_exception: Unknown column 'traje_femenino.cliente_id' in 'field list' in C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `traje_f...', 0)
+#1 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `traje_f...')
+#2 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `traje_f...')
+#3 C:\xampp\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `traje_f...', Array, false)
+#4 C:\xampp\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\code4\app\Controllers\TrajeFemeninos.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\code4\system\CodeIgniter.php(919): App\Controllers\TrajeFemeninos->index()
+#8 C:\xampp\htdocs\code4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeFemeninos))
+#9 C:\xampp\htdocs\code4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-23 05:57:59 --> Unknown column 'traje_femenino.cliente_id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `traje_femenino`.`cliente_id`, CONCAT( cliente.nombre, " ", cliente.apellido ) AS nombre_completo, `traje_femenino`.`talle`, `traje_femenino`.`largo`, `traje_femenino`.`hombro`, `traje_femenino`.`ancho`, `traje_femenino`.`pecho`, `traje_femenino`.`cintura`, `traje_femenino`.`cadera`, `traje_femenino`.`largoManga`
+FROM `traje_masculino`
+JOIN `cliente` ON `cliente`.`id` = `traje_femenino`.`cliente_id`
+ORDER BY `cliente_id` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\TrajeFemeninos.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TrajeFemeninos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeFemeninos))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 05:58:00 --> mysqli_sql_exception: Unknown column 'traje_femenino.cliente_id' in 'field list' in C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `traje_f...', 0)
+#1 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `traje_f...')
+#2 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `traje_f...')
+#3 C:\xampp\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `traje_f...', Array, false)
+#4 C:\xampp\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\code4\app\Controllers\TrajeFemeninos.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\code4\system\CodeIgniter.php(919): App\Controllers\TrajeFemeninos->index()
+#8 C:\xampp\htdocs\code4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeFemeninos))
+#9 C:\xampp\htdocs\code4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-23 05:58:00 --> Unknown column 'traje_femenino.cliente_id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `traje_femenino`.`cliente_id`, CONCAT( cliente.nombre, " ", cliente.apellido ) AS nombre_completo, `traje_femenino`.`talle`, `traje_femenino`.`largo`, `traje_femenino`.`hombro`, `traje_femenino`.`ancho`, `traje_femenino`.`pecho`, `traje_femenino`.`cintura`, `traje_femenino`.`cadera`, `traje_femenino`.`largoManga`
+FROM `traje_masculino`
+JOIN `cliente` ON `cliente`.`id` = `traje_femenino`.`cliente_id`
+ORDER BY `cliente_id` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\TrajeFemeninos.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TrajeFemeninos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrajeFemeninos))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 18:19:50 --> Undefined array key "id"
+in APPPATH\Controllers\Faldas.php on line 65.
+ 1 APPPATH\Controllers\Faldas.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\code4\\app\\Controllers\\Faldas.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Faldas->borrarFalda('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faldas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 18:21:14 --> mysqli_sql_exception: Unknown column 'falda.id' in 'where clause' in C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `falda` ...', 0)
+#1 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `falda` ...')
+#2 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `falda` ...')
+#3 C:\xampp\htdocs\code4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `falda` ...', Array, false)
+#4 C:\xampp\htdocs\code4\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\code4\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\code4\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\code4\app\Controllers\Faldas.php(65): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\code4\system\CodeIgniter.php(919): App\Controllers\Faldas->borrarFalda('1')
+#9 C:\xampp\htdocs\code4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faldas))
+#10 C:\xampp\htdocs\code4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-23 18:21:14 --> Unknown column 'falda.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `falda` SET `estado` = :estado:
+WHERE `falda`.`id` IN :falda.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Faldas.php(65): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Faldas->borrarFalda('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faldas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 18:28:07 --> mysqli_sql_exception: Unknown column 'falda.id' in 'where clause' in C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `falda` ...', 0)
+#1 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `falda` ...')
+#2 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `falda` ...')
+#3 C:\xampp\htdocs\code4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `falda` ...', Array, false)
+#4 C:\xampp\htdocs\code4\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\code4\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\code4\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\code4\app\Controllers\Faldas.php(65): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\code4\system\CodeIgniter.php(919): App\Controllers\Faldas->borrarFalda('1')
+#9 C:\xampp\htdocs\code4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faldas))
+#10 C:\xampp\htdocs\code4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-23 18:28:07 --> Unknown column 'falda.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `falda` SET `estado` = :estado:
+WHERE `falda`.`id` IN :falda.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Faldas.php(65): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Faldas->borrarFalda('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faldas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 18:28:11 --> mysqli_sql_exception: Unknown column 'falda.id' in 'where clause' in C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `falda` ...', 0)
+#1 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `falda` ...')
+#2 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `falda` ...')
+#3 C:\xampp\htdocs\code4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `falda` ...', Array, false)
+#4 C:\xampp\htdocs\code4\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\code4\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\code4\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\code4\app\Controllers\Faldas.php(65): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\code4\system\CodeIgniter.php(919): App\Controllers\Faldas->borrarFalda('1')
+#9 C:\xampp\htdocs\code4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faldas))
+#10 C:\xampp\htdocs\code4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-23 18:28:11 --> Unknown column 'falda.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `falda` SET `estado` = :estado:
+WHERE `falda`.`id` IN :falda.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Faldas.php(65): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Faldas->borrarFalda('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faldas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 18:31:21 --> mysqli_sql_exception: Unknown column 'falda.id' in 'where clause' in C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `falda` ...', 0)
+#1 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `falda` ...')
+#2 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `falda` ...')
+#3 C:\xampp\htdocs\code4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `falda` ...', Array, false)
+#4 C:\xampp\htdocs\code4\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\code4\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\code4\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\code4\app\Controllers\Faldas.php(65): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\code4\system\CodeIgniter.php(919): App\Controllers\Faldas->borrarFalda('1')
+#9 C:\xampp\htdocs\code4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faldas))
+#10 C:\xampp\htdocs\code4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-23 18:31:21 --> Unknown column 'falda.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `falda` SET `estado` = :estado:
+WHERE `falda`.`id` IN :falda.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Faldas.php(65): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Faldas->borrarFalda('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faldas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 18:33:28 --> mysqli_sql_exception: Unknown column 'falda.id' in 'where clause' in C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `falda` ...', 0)
+#1 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `falda` ...')
+#2 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `falda` ...')
+#3 C:\xampp\htdocs\code4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `falda` ...', Array, false)
+#4 C:\xampp\htdocs\code4\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\code4\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\code4\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\code4\app\Controllers\Faldas.php(65): CodeIgniter\Model->update('3', Array)
+#8 C:\xampp\htdocs\code4\system\CodeIgniter.php(919): App\Controllers\Faldas->borrarFalda('3')
+#9 C:\xampp\htdocs\code4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faldas))
+#10 C:\xampp\htdocs\code4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-23 18:33:28 --> Unknown column 'falda.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `falda` SET `estado` = :estado:
+WHERE `falda`.`id` IN :falda.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Faldas.php(65): CodeIgniter\Model->update('3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Faldas->borrarFalda('3')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faldas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 18:48:14 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `fa...', 0)
+#1 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fa...')
+#2 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fa...')
+#3 C:\xampp\htdocs\code4\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fa...', Array, false)
+#4 C:\xampp\htdocs\code4\system\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\code4\system\BaseModel.php(1080): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\code4\app\Controllers\Faldas.php(61): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\code4\system\CodeIgniter.php(919): App\Controllers\Faldas->borrarFalda('2')
+#8 C:\xampp\htdocs\code4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faldas))
+#9 C:\xampp\htdocs\code4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-23 18:48:14 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `falda`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1080): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Faldas.php(61): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Faldas->borrarFalda('2')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faldas))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 19:26:36 --> mysqli_sql_exception: Unknown column 'estado' in 'field list' in C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `falda` ...', 0)
+#1 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `falda` ...')
+#2 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `falda` ...')
+#3 C:\xampp\htdocs\code4\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `falda` ...', Array, false)
+#4 C:\xampp\htdocs\code4\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\code4\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\code4\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\code4\app\Controllers\Faldas.php(118): CodeIgniter\Model->update('2', Array)
+#8 C:\xampp\htdocs\code4\system\CodeIgniter.php(919): App\Controllers\Faldas->actualizarFalda()
+#9 C:\xampp\htdocs\code4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faldas))
+#10 C:\xampp\htdocs\code4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-23 19:26:36 --> Unknown column 'estado' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `falda` SET `largo` = :largo:, `cintura` = :cintura:, `cadera` = :cadera:, `estado` = :estado:
+WHERE `falda`.`cliente_id` IN :falda.cliente_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Faldas.php(118): CodeIgniter\Model->update('2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Faldas->actualizarFalda()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faldas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 20:42:58 --> mysqli_sql_exception: Duplicate entry '1' for key 'pantalon.PRIMARY' in C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\code4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\code4\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\code4\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\code4\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\code4\app\Controllers\Pantalons.php(53): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\code4\system\CodeIgniter.php(919): App\Controllers\Pantalons->guardar()
+#9 C:\xampp\htdocs\code4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+#10 C:\xampp\htdocs\code4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-23 20:42:58 --> Duplicate entry '1' for key 'pantalon.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pantalon` (`cliente_id`, `largo`, `entrepierna`, `cintura`, `cadera`, `pierna`, `rodilla`, `bota`) VALUES (:cliente_id:, :largo:, :entrepierna:, :cintura:, :cadera:, :pierna:, :rodilla:, :bota:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Pantalons.php(53): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pantalons->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 20:45:30 --> mysqli_sql_exception: Duplicate entry '1' for key 'pantalon.PRIMARY' in C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\code4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\code4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\code4\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\code4\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\code4\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\code4\app\Controllers\Pantalons.php(53): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\code4\system\CodeIgniter.php(919): App\Controllers\Pantalons->guardarPantalon()
+#9 C:\xampp\htdocs\code4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+#10 C:\xampp\htdocs\code4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-23 20:45:30 --> Duplicate entry '1' for key 'pantalon.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pantalon` (`cliente_id`, `largo`, `entrepierna`, `cintura`, `cadera`, `pierna`, `rodilla`, `bota`) VALUES (:cliente_id:, :largo:, :entrepierna:, :cintura:, :cadera:, :pierna:, :rodilla:, :bota:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Pantalons.php(53): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pantalons->guardarPantalon()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 20:52:26 --> Undefined variable $pantalon
+in APPPATH\Views\datos\editarPantalon.php on line 19.
+ 1 APPPATH\Views\datos\editarPantalon.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalon', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/editarPantalon', [], true)
+ 5 APPPATH\Controllers\Pantalons.php(92): view('datos/editarPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pantalons->editarPantalon('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 20:53:47 --> Undefined variable $pantalon
+in APPPATH\Views\datos\editarPantalon.php on line 19.
+ 1 APPPATH\Views\datos\editarPantalon.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalon', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/editarPantalon', [], true)
+ 5 APPPATH\Controllers\Pantalons.php(92): view('datos/editarPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pantalons->editarPantalon('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 20:53:48 --> Undefined variable $pantalon
+in APPPATH\Views\datos\editarPantalon.php on line 19.
+ 1 APPPATH\Views\datos\editarPantalon.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalon', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/editarPantalon', [], true)
+ 5 APPPATH\Controllers\Pantalons.php(92): view('datos/editarPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pantalons->editarPantalon('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 20:53:48 --> Undefined variable $pantalon
+in APPPATH\Views\datos\editarPantalon.php on line 19.
+ 1 APPPATH\Views\datos\editarPantalon.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalon', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/editarPantalon', [], true)
+ 5 APPPATH\Controllers\Pantalons.php(92): view('datos/editarPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pantalons->editarPantalon('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 20:53:49 --> Undefined variable $pantalon
+in APPPATH\Views\datos\editarPantalon.php on line 19.
+ 1 APPPATH\Views\datos\editarPantalon.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalon', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/editarPantalon', [], true)
+ 5 APPPATH\Controllers\Pantalons.php(92): view('datos/editarPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pantalons->editarPantalon('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 20:53:49 --> Undefined variable $pantalon
+in APPPATH\Views\datos\editarPantalon.php on line 19.
+ 1 APPPATH\Views\datos\editarPantalon.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalon', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/editarPantalon', [], true)
+ 5 APPPATH\Controllers\Pantalons.php(92): view('datos/editarPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pantalons->editarPantalon('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 20:53:50 --> Undefined variable $pantalon
+in APPPATH\Views\datos\editarPantalon.php on line 19.
+ 1 APPPATH\Views\datos\editarPantalon.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalon', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/editarPantalon', [], true)
+ 5 APPPATH\Controllers\Pantalons.php(92): view('datos/editarPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pantalons->editarPantalon('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 20:53:51 --> Undefined variable $pantalon
+in APPPATH\Views\datos\editarPantalon.php on line 19.
+ 1 APPPATH\Views\datos\editarPantalon.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalon', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/editarPantalon', [], true)
+ 5 APPPATH\Controllers\Pantalons.php(92): view('datos/editarPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pantalons->editarPantalon('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 20:54:25 --> Undefined variable $pantalon
+in APPPATH\Views\datos\editarPantalon.php on line 19.
+ 1 APPPATH\Views\datos\editarPantalon.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalon', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/editarPantalon', [], true)
+ 5 APPPATH\Controllers\Pantalons.php(92): view('datos/editarPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pantalons->editarPantalon('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 20:54:25 --> Undefined variable $pantalon
+in APPPATH\Views\datos\editarPantalon.php on line 19.
+ 1 APPPATH\Views\datos\editarPantalon.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalon', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/editarPantalon', [], true)
+ 5 APPPATH\Controllers\Pantalons.php(92): view('datos/editarPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pantalons->editarPantalon('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 20:54:26 --> Undefined variable $pantalones
+in APPPATH\Views\datos\datosPantalon.php on line 27.
+ 1 APPPATH\Views\datos\datosPantalon.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalones', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\datosPantalon.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\datosPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/datosPantalon', [], true)
+ 5 APPPATH\Controllers\Pantalons.php(36): view('datos/datosPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pantalons->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 20:54:30 --> Undefined variable $pantalones
+in APPPATH\Views\datos\datosPantalon.php on line 27.
+ 1 APPPATH\Views\datos\datosPantalon.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalones', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\datosPantalon.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\datosPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/datosPantalon', [], true)
+ 5 APPPATH\Controllers\Pantalons.php(36): view('datos/datosPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pantalons->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 20:55:07 --> Undefined variable $pantalon
+in APPPATH\Views\datos\editarPantalon.php on line 19.
+ 1 APPPATH\Views\datos\editarPantalon.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalon', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/editarPantalon', [], true)
+ 5 APPPATH\Controllers\Pantalons.php(92): view('datos/editarPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pantalons->editarPantalon('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 21:00:50 --> Undefined variable $pantalon
+in APPPATH\Views\datos\editarPantalon.php on line 19.
+ 1 APPPATH\Views\datos\editarPantalon.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalon', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/editarPantalon', [], true)
+ 5 APPPATH\Controllers\Pantalons.php(92): view('datos/editarPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pantalons->editarPantalon('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 21:01:03 --> Undefined variable $pantalon
+in APPPATH\Views\datos\editarPantalon.php on line 19.
+ 1 APPPATH\Views\datos\editarPantalon.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalon', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/editarPantalon', [], true)
+ 5 APPPATH\Controllers\Pantalons.php(92): view('datos/editarPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pantalons->editarPantalon('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 21:01:03 --> Undefined variable $pantalon
+in APPPATH\Views\datos\editarPantalon.php on line 19.
+ 1 APPPATH\Views\datos\editarPantalon.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalon', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/editarPantalon', [], true)
+ 5 APPPATH\Controllers\Pantalons.php(92): view('datos/editarPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pantalons->editarPantalon('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 21:01:04 --> Undefined variable $pantalon
+in APPPATH\Views\datos\editarPantalon.php on line 19.
+ 1 APPPATH\Views\datos\editarPantalon.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalon', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/editarPantalon', [], true)
+ 5 APPPATH\Controllers\Pantalons.php(92): view('datos/editarPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pantalons->editarPantalon('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 21:05:27 --> Undefined variable $pantalon
+in APPPATH\Views\datos\editarPantalon.php on line 19.
+ 1 APPPATH\Views\datos\editarPantalon.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pantalon', 'C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code4\\app\\Views\\datos\\editarPantalon.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('datos/editarPantalon', [], true)
+ 5 APPPATH\Controllers\Pantalons.php(92): view('datos/editarPantalon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pantalons->editarPantalon('5')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantalons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

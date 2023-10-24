@@ -706,7 +706,6 @@ class BaseBuilder
      *
      * @param array|RawSql|string $key
      * @param mixed               $value
-     * @param bool                $escape
      *
      * @return $this
      */
@@ -1997,7 +1996,7 @@ class BaseBuilder
         }
 
         if (isset($this->QBOptions['setQueryAsData'])) {
-            $data = $this->QBOptions['setQueryAsData'];
+            $data = $this->QBOptions['setQueryAsData'] . "\n";
         } else {
             $data = 'VALUES ' . implode(', ', $this->formatValues($values)) . "\n";
         }
