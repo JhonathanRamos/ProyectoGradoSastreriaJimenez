@@ -41,7 +41,7 @@
                     <input id="cintura" value="<?= old('cintura') ?>" class="form-control" type="text" name="cintura" required>
                 </div>
                 <div class="form-group">
-                    <label for "cadera">Cadera:</label>
+                    <label for="cadera">Cadera:</label>
                     <input id="cadera" value="<?= old('cadera') ?>" class="form-control" type="text" name="cadera" required>
                 </div>
                 <button class="btn btn-success" type="submit">Guardar</button>

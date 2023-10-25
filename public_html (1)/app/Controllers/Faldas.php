@@ -65,6 +65,7 @@ class Faldas extends Controller{
         $faldas = $faldaModel->select('falda.cliente_id, CONCAT( cliente.nombre ," ", cliente.apellido ) AS nombre_completo , falda.largo, falda.cintura, falda.cadera')
             ->join('cliente', 'cliente.id = falda.cliente_id')
             ->orderBy('cliente_id', 'ASC')
+            ->where('estado', 1)
             ->findAll();
     
         $datos['faldas'] = $faldas;

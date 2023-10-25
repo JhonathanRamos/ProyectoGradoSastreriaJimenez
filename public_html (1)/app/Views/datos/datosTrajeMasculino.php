@@ -37,8 +37,8 @@
         <td><?= $TrajeMasculino['largoManga']; ?></td>
         <td>
             <div class="btn-group">
-                <a href="<?= base_url('editar/' . $TrajeMasculino['cliente_id']); ?>" class="btn btn-outline-primary" style="margin-right: 2px;">Editar</a>
-                <a href="<?= base_url('borrar/' . $TrajeMasculino['cliente_id']); ?>" class="btn btn-outline-danger" style="margin-right: 2px;">Borrar</a>
+                <a href="<?= base_url('editartrajeMasculino/' . $TrajeMasculino['cliente_id']); ?>" class="btn btn-outline-primary" style="margin-right: 2px;">Editar</a>
+                <a href="<?= base_url('borrartrajeMasculino/' . $TrajeMasculino['cliente_id']); ?>" class="btn btn-outline-danger" style="margin-right: 2px;">Borrar</a>
             </div>
         </td>
     </tr>

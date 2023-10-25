@@ -16,9 +16,26 @@ echo session('mensaje')
         <p class="card-text">
             <form method="post" action="<?=site_url('/guardarPantalon')?>" enctype="multipart/form-data">
 
-                <div class="form-group">
-                        <label for="cliente_id">Cliente ID:</label>
-                        <input id="cliente_id" value="<?=old('cliente_id')?>" class="form-control" type="text" name="cliente_id" required>
+            <div class="form-group">
+                    <label for="cliente_id">Cliente:</label>
+                    <select id="cliente_id" class="form-control" name="cliente_id" required>
+                        <?php foreach ($clientes as $Cliente): ?>
+                            <?php
+                            $clienteTienePantalon = false;
+                            foreach ($pantalones as $pantalon) {
+                                if ($pantalon['cliente_id'] === $Cliente['cliente_id']) {
+                                    $clienteTienePantalon = true;
+                                    break;
+                                }
+                            }
+                            ?>
+                            <?php if (!$clienteTienePantalon): ?>
+                                <option value="<?= $Cliente['cliente_id'] ?>">
+                                    <?= $Cliente['nombre_completo'] ?>
+                                </option>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    </select>
                 </div>
 
                 <div class="form-group">

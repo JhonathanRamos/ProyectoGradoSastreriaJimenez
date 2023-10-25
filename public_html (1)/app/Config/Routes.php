@@ -44,15 +44,30 @@ $routes->post('actualizarPantalon', 'Pantalons::actualizarPantalon');
 
 /* ______________________________________________________________________ */
 
-//Vista TrajeMasculino
-$routes->get('datosTrajeMasculino', 'TrajeMasculinos::index');
-$routes->get('trajeMasculino', 'TrajeMasculinos::trajeMasculino');
-$routes->post('guardarMasculino', 'TrajeMasculinos::guardar');
-
 //Vista TrajeFemenino
 $routes->get('datosTrajeFemenino', 'TrajeFemeninos::index');
 $routes->get('trajeFemenino', 'TrajeFemeninos::trajeFemenino');
-$routes->post('guardarFemenino', 'TrajeFemeninos::guardar');
+
+
+//CRUD TRAJE FEMENINO
+$routes->post('guardartrajeFemenino', 'TrajeFemeninos::guardartrajeFemenino');
+$routes->get('borrartrajeFemenino/(:num)', 'TrajeFemeninos::borrartrajeFemenino/$1');
+$routes->get('editartrajeFemenino/(:num)', 'TrajeFemeninos::editartrajeFemenino/$1');
+$routes->post('actualizartrajeFemenino', 'TrajeFemeninos::actualizartrajeFemenino');
+
+/* ______________________________________________________________________ */
+
+//Vista TrajeMasculino
+$routes->get('datosTrajeMasculino', 'TrajeMasculinos::index');
+$routes->get('trajeMasculino', 'TrajeMasculinos::trajeMasculino');
+
+//CRUD TRAJE MASCULINO
+$routes->post('guardartrajeMasculino', 'TrajeMasculinos::guardartrajeMasculino');
+$routes->get('borrartrajeMasculino/(:num)', 'TrajeMasculinos::borrartrajeMasculino/$1');
+$routes->get('editartrajeMasculino/(:num)', 'TrajeMasculinos::editartrajeMasculino/$1');
+$routes->post('actualizartrajeMasculino', 'TrajeMasculinos::actualizartrajeMasculino');
+
+/* ______________________________________________________________________ */
 
 
 //HTML SASTRERIA

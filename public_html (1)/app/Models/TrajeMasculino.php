@@ -6,6 +6,8 @@ use CodeIgniter\Model;
 
 class TrajeMasculino extends Model {
     protected $table = 'traje_masculino';
+
+    protected $primaryKey = 'cliente_id';
     protected $allowedFields = ['talle', 'largo', 'hombro', 'ancho', 'pecho', 'estomago', 'largoManga', 'cliente_id'];
 
     public function cliente() {

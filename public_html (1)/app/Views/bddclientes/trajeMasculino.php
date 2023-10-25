@@ -14,11 +14,28 @@ echo session('mensaje')
     <div class="card-body">
         <h5 class="card-title">Ingresar Medidas Del Cliente</h5>
         <p class="card-text">
-            <form method="post" action="<?=site_url('/guardarMasculino')?>" enctype="multipart/form-data">
+            <form method="post" action="<?=site_url('/guardartrajeMasculino')?>" enctype="multipart/form-data">
 
-                <div class="form-group">
-                        <label for="cliente_id">Cliente ID:</label>
-                        <input id="cliente_id" value="<?=old('cliente_id')?>" class="form-control" type="text" name="cliente_id" required>
+            <div class="form-group">
+                    <label for="cliente_id">Cliente:</label>
+                    <select id="cliente_id" class="form-control" name="cliente_id" required>
+                        <?php foreach ($clientes as $Cliente): ?>
+                            <?php
+                            $clienteTieneTrajeMasculino = false;
+                            foreach ($trajeMasculinos as $trajeMasculino) {
+                                if ($trajeMasculino['cliente_id'] === $Cliente['cliente_id']) {
+                                    $clienteTieneTrajeMasculino = true;
+                                    break;
+                                }
+                            }
+                            ?>
+                            <?php if (!$clienteTieneTrajeMasculino): ?>
+                                <option value="<?= $Cliente['cliente_id'] ?>">
+                                    <?= $Cliente['nombre_completo'] ?>
+                                </option>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    </select>
                 </div>
                 
                 <div class="form-group">

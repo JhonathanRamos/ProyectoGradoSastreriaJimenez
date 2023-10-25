@@ -18,6 +18,10 @@ class Cliente extends Model{
     public function pantalon() {
         return $this->hasMany(Falda::class, 'cliente_id');
     }
+
+    public function trajeFemenino() {
+        return $this->hasMany(Falda::class, 'cliente_id');
+    }
 }
 
 
