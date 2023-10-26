@@ -2,7 +2,33 @@
 
 <?=$cabecera?>
 
-<a class="btn btn-success" href="<?=base_url('crear')?>">Crear Clientes</a> 
+<header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+        
+			<nav class="menu">
+
+            <a class="btn btn-dark" href="<?=base_url('cliente')?>">Cliente</a> 
+ 
+            <a class="btn btn-dark" href="<?=base_url('datosFalda')?>">Falda</a> 
+
+            <a class="btn btn-dark" href="<?=base_url('datosTrajeMasculino')?>">Traje Masculino</a> 
+
+            <a class="btn btn-dark" href="<?=base_url('datosTrajeFemenino')?>">Traje Femenino</a> 
+
+            <a class="btn btn-dark" href="<?=base_url('datosPantalon')?>">Pantalon</a> 
+			</nav>
+		</div>
+	</header>
+	<div class="capa"></div>
+<!--	--------------->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+        <a class="btn btn-success" href="<?=base_url('crear')?>">Crear Clientes</a> 
 
 <a class="btn btn-dark" href="<?=base_url('trajeMasculino')?>">Traje Masculino</a> 
 
@@ -13,7 +39,13 @@
 <a class="btn btn-dark" href="<?=base_url('falda')?>">Falda</a> 
 
 <a class="btn btn-dark" href="<?=base_url('producto')?>">Subir Traje</a> 
+		</nav>
+		<label for="btn-menu">✖️</label>
+	</div>
+</div>
 
+<br>
+<br>
 
 
         <table class="table table-light">
@@ -64,15 +96,6 @@
             </tbody>
         </table>
 
-        <a class="btn btn-dark" href="<?=base_url('cliente')?>">Cliente</a> 
- 
-        <a class="btn btn-dark" href="<?=base_url('datosFalda')?>">Falda</a> 
-
-        <a class="btn btn-dark" href="<?=base_url('datosTrajeMasculino')?>">Traje Masculino</a> 
-
-        <a class="btn btn-dark" href="<?=base_url('datosTrajeFemenino')?>">Traje Femenino</a> 
-
-        <a class="btn btn-dark" href="<?=base_url('datosPantalon')?>">Pantalon</a> 
 
         <?=$pie?>
 
